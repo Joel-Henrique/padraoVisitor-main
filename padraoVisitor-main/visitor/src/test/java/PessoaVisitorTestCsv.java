@@ -21,6 +21,6 @@ public class PessoaVisitorTestCsv {
     void deveExibirFuncionarioCsv() {
         Funcionario funcionario = new Funcionario(2, "Joel", 1800.0f);
         PessoaVisitorJson visitor = new PessoaVisitorJson();
-        assertEquals("Funcionario{codigo=2, nome='Joel', salario=5000.0}", visitor.exibir(funcionario));
+        assertEquals("Funcionario{codigo=2, nome='Joel', salario=1800.0}", visitor.exibir(funcionario));
     }
 }
